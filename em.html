@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tặng ng dth</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        /* header and body setup */
+        html {
+            font-family: 'Open Sans', sans-serif;
+            background: url(pattern.png);
+        }
+
+        body {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 140px;
+            margin: 0 0 0 32.5px;
+        }
+
+        /* main section and video styling */
+        main {
+            background: #ccc;
+        }
+
+        article {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 2;
+        }
+
+        iframe {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* further info links */
+        .further-info {
+            clear: left;
+            padding: 40px 0;
+            background: #ffc0cb;
+            box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+                inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .further-info a {
+            width: 25%;
+            display: block;
+            float: left;
+        }
+
+        .further-info img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article>
+            <!-- Nhúng iframe từ YouTube với kích thước linh hoạt -->
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KiAC_kdfoP4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                title="Iframe Youtube"></iframe>
+
+            <h2>Tặng em mấy đìu xàm xí nho nhỏ</h2>
+            <p><b>🫵🏻 BÀI NÀY LÀ DÀNH CHO EM</b></p>
+        </article>
+
+        <div class="further-info">
+            <!-- Đảm bảo hình ảnh với srcset và đường dẫn đúng -->
+            <picture>
+                <source media="(max-width:500px)" srcset="emmmm/so4.dth.jpg">
+                <img src="emmmm/so4.jpg" alt="em diu">
+            </picture>
+        </div>
+    </main>
+</body>
+
+</html>
